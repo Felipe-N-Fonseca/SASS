@@ -1,12 +1,19 @@
 .cars {
-    h2 {
+    &__title {
+        // h2
         color: $color-02;
     }
-    li {
+    &__item {
+        // li
         color: $color-04;
-
-        a {
-            background-color: $color-blue;
-        }
+    }
+    &__bottom {
+        // a
+        background-color: $color-blue;
     }
 }
+/* 
+cars__title
+cars__item
+cars__bottom
+*/

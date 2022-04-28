@@ -110,38 +110,43 @@ footer {
   text-decoration: none;
 }
 
-.cars h2 {
+.cars__title {
   color: #999;
 }
-.cars li {
+.cars__item {
   color: #222;
 }
-.cars li a {
+.cars__bottom {
   background-color: #00f;
 }
 
+/* 
+cars__title
+cars__item
+cars__bottom
+*/
 .destack {
   background-color: #222;
   padding: 1.5rem;
 }
-.destack h1 {
+.destack__title {
   color: #f00;
   float: left;
   font-size: 3rem;
   margin-top: 0;
 }
-.destack h2 {
+.destack__subtitle {
   float: left;
   font-size: 1.2rem;
   margin-left: 1.5rem;
   margin-top: 1.5rem;
 }
-.destack img {
+.destack__img {
   width: 100%;
   height: auto;
   margin: 1.5rem auto;
 }
-.destack p {
+.destack__paragraph {
   font-size: 1.5rem;
   color: #ff5;
   padding: 2rem 0;
